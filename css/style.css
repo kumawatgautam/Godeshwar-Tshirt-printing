@@ -76,8 +76,10 @@ nav.scrolled {
 }
 
 .nav-logo img {
-  height: 72px;
+  height: 56px;
   width: auto;
+  max-width: 180px;
+  object-fit: contain;
   display: block;
   transition: transform 0.3s var(--transition);
 }
