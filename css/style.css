@@ -168,7 +168,7 @@ nav.scrolled .nav-wa:hover {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background: var(--obsidian);
+  background: #2a2a2a;
 }
 
 .hero-slides {
@@ -1228,7 +1228,32 @@ nav.scrolled .nav-wa:hover {
   overflow: hidden;
   border-radius: 18px;
   transition: all 0.3s ease;
+  position: relative;
 }
+
+.open-maps-btn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #FFFFFF;
+  color: #1a73e8;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  transition: transform 0.25s var(--transition), box-shadow 0.25s var(--transition);
+}
+
+.open-maps-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+} 
 
 .map-placeholder iframe {
   width: 100%;

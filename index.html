@@ -11,6 +11,8 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" as="image" href="assets/images/logo_3.png">
+  <link rel="preload" as="image" href="assets/images/home_tshirts.webp">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
 
@@ -22,7 +24,7 @@
   <!-- ═══════════════ NAVIGATION ═══════════════ -->
   <nav id="navbar">
     <a href="#hero" class="nav-logo">
-      <img src="assets/images/logo_3.png" alt="Gondeshwr Logo">
+      <img src="assets/images/logo_3.png" alt="Gondeshwr Logo" loading="eager" fetchpriority="high">
     </a>
     <ul class="nav-links">
       <li><a href="#studio">Studio</a></li>
@@ -47,7 +49,7 @@
     <div class="hero-content">
       <p class="hero-eyebrow">Sinnar · Nashik · Since 2018</p>
       <h1 class="hero-title">The Art of<br>Impression.</h1>
-      <p class="hero-marathi">वस्त्र आणि कला यांचा संगम — गोंदेशवर टी-शर्ट प्रिंटिंग</p>
+      <p class="hero-marathi">वस्त्र आणि कला यांचा संगम — गोंदेश्वर टी-शर्ट प्रिंटिंग</p>
       <a href="https://wa.me/918007372576" target="_blank" class="btn-wa">
         <span>Connect on WhatsApp</span>
         <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +72,7 @@
     <div class="studio-grid">
       <div class="studio-image-side reveal">
         <img src="assets/images/printing_machine.png" alt="Gondeshwr Studio, Sinnar">
-        <div class="studio-image-caption">गोंदेशवर स्टुडिओ · Sinnar, Nashik</div>
+        <div class="studio-image-caption">गोंदेश्वर स्टुडिओ · Sinnar, Nashik</div>
       </div>
 
       <div class="studio-text-side">
@@ -368,7 +370,7 @@
           <span>Why Gondeshwr · आमची खासियत</span>
         </div>
 
-        <h2 class="why-main-heading reveal">गोंदशर टी-शर्ट प्रिंटिंग का निवडावे?</h2>
+        <h2 class="why-main-heading reveal">गोंदेश्वर टी-शर्ट प्रिंटिंग का निवडावे?</h2>
         <div class="why-heading-deco reveal">◆</div>
 
         <!-- Feature Badges Row -->
@@ -663,6 +665,13 @@
             </div>
 
             <div class="map-placeholder reveal reveal-delay-3">
+              <a href="https://maps.app.goo.gl/bMPwEhBHroNqZR9e8?g_st=aw" 
+                 target="_blank" rel="noopener" class="open-maps-btn">
+                Open in Maps
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M7 17L17 7M17 7H8M17 7V16"/>
+                </svg>
+              </a>
               <iframe src="https://www.google.com/maps?q=Hiralal+Tower+Building+Sinnar+Nashik&output=embed" width="100%"
                 height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
@@ -729,7 +738,7 @@
       <div class="footer-grid">
         <div>
           <p class="footer-brand-name">Gondeshwr</p>
-          <p class="footer-brand-marathi">गोंदेशवर टी-शर्ट प्रिंटिंग</p>
+          <p class="footer-brand-marathi">गोंदेश्वर टी-शर्ट प्रिंटिंग</p>
           <p class="footer-tagline">Where craftsmanship meets fabric. Premium garment printing in Sinnar, Nashik — since
             2018.</p>
         </div>
